@@ -1,2 +1,3 @@
-# eslint-rules
-My custom ESLint rules
+# eslint-plugin-ts
+
+My custom TypeScript ESLint plugin.

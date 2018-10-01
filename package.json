@@ -1,0 +1,29 @@
+{
+  "name": "eslint-plugin-ts",
+  "version": "1.0.0",
+  "description": "ESLint TypeScript plugin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ovidiubute/eslint-plugin-ts.git"
+  },
+  "keywords": [
+    "ESLint",
+    "TypeScript",
+    "rules",
+    "linting"
+  ],
+  "author": "Ovidiu Bute <ovidiu.bute@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ovidiubute/eslint-plugin-ts/issues"
+  },
+  "homepage": "https://github.com/ovidiubute/eslint-plugin-ts#readme",
+  "devDependencies": {
+    "eslint": "4.19.1",
+    "eslint-plugin-typescript": "0.12.0"
+  }
+}
