@@ -9,9 +9,19 @@ The following patterns are considered errors:
 ```ts
 const x: any = 45;
 
-let y: any = {
-  foo: "bar"
+export interface Baz = {
+  foo: any;
 };
+
+export interface Bar = {
+  baz: ReadonlyArray<any>;
+};
+
+function foobar(x: any) {}
+
+class MicroBaz {
+  classField: any[];
+}
 ```
 
 ## When not to use
