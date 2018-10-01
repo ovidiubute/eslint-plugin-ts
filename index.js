@@ -7,12 +7,14 @@ module.exports = {
   configs: {
     recommended: {
       plugins: ["ts"],
+      parser: "typescript-eslint-parser",
       rules: {
         "ts/no-any": 2
       }
     },
     all: {
       plugins: ["ts"],
+      parser: "typescript-eslint-parser",
       rules: {
         "ts/no-any": 2
       }
