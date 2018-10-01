@@ -7,22 +7,12 @@ module.exports = {
   configs: {
     recommended: {
       plugins: ["ts"],
-      parserOptions: {
-        ecmaFeatures: {
-          jsx: true
-        }
-      },
       rules: {
         "ts/no-any": 2
       }
     },
     all: {
-      plugins: ["react"],
-      parserOptions: {
-        ecmaFeatures: {
-          jsx: true
-        }
-      },
+      plugins: ["ts"],
       rules: {
         "ts/no-any": 2
       }
